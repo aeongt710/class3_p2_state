@@ -4,16 +4,16 @@ import {useState} from "react";
 import './Room.css';
 
 function Room() {
-    // const l=useState(true);
-    // console.log("State is: ",l);
 
     let [isLit,setLit]=useState(true);
     let [getTemp,setTemp]=useState(72);
+
     function  OnLight()
     {
         console.log("Lights On!");
         setLit(true);
     }
+
     function OffLight()
     {
         console.log("Lights Off!");
