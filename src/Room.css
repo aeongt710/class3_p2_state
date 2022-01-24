@@ -1,0 +1,24 @@
+.Light{
+    background-color: white;
+    color: black;
+}
+.Dark{
+    background-color: black;
+    color: white;
+}
+.main{
+    height: 100vh;
+    padding-top: 40px;
+    text-align: center;
+    margin: 50px;
+
+}
+button{
+    background-color: greenyellow;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+}
+button:hover{
+    background: yellow;
+}
